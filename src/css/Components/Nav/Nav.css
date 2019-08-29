@@ -1,0 +1,35 @@
+#header {
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 48px;
+    z-index: 3;
+    transition: all 0.5s ease;
+}
+
+#header #logo {
+    padding: 6px 0 0 0;
+}
+
+#header #logo h1 {
+    color: #505050;
+    font-family: "Philosopher", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+#header #logo h1 a {
+    color: #555;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#header #logo h1 a span {
+    color: #71c55d;
+}
